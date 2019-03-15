@@ -11,4 +11,5 @@ app.config.from_object('configuration')
 db = SQLAlchemy(app)
 
 # mount controllers
-from . import controller
+from  . import  controller
+
